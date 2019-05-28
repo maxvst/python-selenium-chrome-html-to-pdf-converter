@@ -8,4 +8,4 @@ TODO: Add instruction
 TODO: Add description
 
 # Usefull notes
-TODO: Add notes about usefull css options
+TODO: Add css recomendations
