@@ -15,7 +15,7 @@ Download chromedriver from http://chromedriver.chromium.org/ and put it project 
 
 # Demo
 ```
-cd example
+cd examples
 python converter.py https://google.com google.pdf
 ```
 
