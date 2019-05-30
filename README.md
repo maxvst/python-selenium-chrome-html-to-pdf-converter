@@ -25,13 +25,41 @@ TODO: Add description
 
 ## CSS recomendations
 
-Set page size.
+Basic configuration for single page:
 ```
 @page {
     size: A4;
+    margin: 0mm;
 }
 ```
-See https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size for more details.
 
-## Usefull notes
-See https://www.tutorialspoint.com/css/css_paged_media.htm for more css properties for styling pages.
+For printing double-sided documents use
+```
+@page :left {
+    margin-left: 4cm;
+    margin-right: 2cm;
+}
+
+@page :right {
+    margin-left: 4cm;
+    margin-right: 2cm;
+}
+
+@page :first {
+    margin-top: 10cm    /* Top margin on first page 10cm */
+}
+```
+
+Control pagination with page-break-before, page-break-after, page-break-inside like
+```
+h1 { page-break-before : right }
+h2 { page-break-after : avoid }
+table { page-break-inside : avoid }
+```
+Controlling Widows and Orphans like
+```
+@page {
+    orphans:4;
+    widows:2;
+}
+```
