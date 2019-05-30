@@ -1,5 +1,5 @@
 # python-selenium-chrome-html-to-pdf-converter
-Simple python wrapper to convert HTML to PDF with headless Chrome via selenium
+Simple python wrapper to convert HTML to PDF with headless Chrome via selenium.
 
 ## Installation
 Clone repository, move to project root dir, install virtualenv, install dependencies:
@@ -11,7 +11,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 Install chrome (chromium) browser.
-Download chromedriver from http://chromedriver.chromium.org/ and put it project root directory
+
+Download chromedriver from http://chromedriver.chromium.org/ and put it to project root directory.
 
 ## Demo
 ```
@@ -33,4 +34,4 @@ Set page size.
 See https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size for more details.
 
 ## Usefull notes
-See https://www.tutorialspoint.com/css/css_paged_media.htm more css properties for styling pages
+See https://www.tutorialspoint.com/css/css_paged_media.htm for more css properties for styling pages.
