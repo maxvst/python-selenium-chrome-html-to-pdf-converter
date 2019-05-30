@@ -56,10 +56,11 @@ h1 { page-break-before : right }
 h2 { page-break-after : avoid }
 table { page-break-inside : avoid }
 ```
-Controlling Widows and Orphans like
+Control widows and оrphans like
 ```
 @page {
     orphans:4;
     widows:2;
 }
 ```
+More descriptions see at https://www.tutorialspoint.com/css/css_paged_media.htm
