@@ -28,7 +28,7 @@ TODO: Add description
 Set page size.
 ```
 @page {
-	size: A4;  /* see https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size */
+    size: A4;
 }
 ```
 See https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size for more details.
